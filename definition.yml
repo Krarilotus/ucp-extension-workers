@@ -1,0 +1,7 @@
+name: workers
+version: 0.0.1
+author: gynt
+display-name: "Worker improvements"
+type: module
+meta:
+  version: 1.0.0
