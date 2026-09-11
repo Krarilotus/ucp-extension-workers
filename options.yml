@@ -2,20 +2,20 @@ meta:
   version: 1.0.0
 options:
 - display: GroupBox
-  header: 'Religion'
+  header: '{{ui.religion}}'
   hasHeader: false
-  category: [Workers]
+  category: ['{{ui.workers}}']
   children:
     - url: workers.workercounts.church.value
       name: workers.workercounts.church.value
-      text: 'Assign two priests to churches instead of one'
+      text: '{{ui.assign-two-priests-to-churches-instead-of-one}}'
       display: Switch
       contents:
         type: boolean
         value: false
     - url: workers.workercounts.cathedral.value
       name: workers.workercounts.cathedral.value
-      text: 'Assign two priests to cathedrals instead of one'
+      text: '{{ui.assign-two-priests-to-cathedrals-instead-of-one}}'
       display: Switch
       contents:
         type: boolean
